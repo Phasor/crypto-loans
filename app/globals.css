@@ -81,6 +81,9 @@
   --sidebar-ring: oklch(0.708 0 0);
   --foreground-rgb: 0, 0, 0;
   --background-rgb: 245, 247, 250;
+  --white: rgb(255 255 255);
+  --black: rgb(0 0 0);
+  --transparent: transparent;
 }
 
 .dark {
@@ -116,6 +119,8 @@
   --sidebar-accent-foreground: oklch(0.985 0 0);
   --sidebar-border: oklch(0.269 0 0);
   --sidebar-ring: oklch(0.439 0 0);
+  --white: rgb(0 0 0);
+  --black: rgb(255 255 255);
 }
 
 @layer base {
@@ -145,3 +150,7 @@ html {
     @apply bg-white p-6 rounded-lg shadow-md;
   }
 }
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;

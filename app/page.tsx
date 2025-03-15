@@ -134,19 +134,27 @@ export default function Home() {
           <div className="space-y-6">
             <div className="bg-white p-6 rounded-lg shadow-md">
               <h3 className="text-xl font-semibold mb-3">What Happens if My Collateral Value Drops?</h3>
-              <p>If the value of your crypto falls below a set LTV ratio, we'll notify you in advance to deposit additional collateral or repay part of your loan to avoid liquidation.</p>
+              <p>If the value of your crypto falls below a set LTV ratio, we'll notify you in advance to deposit additional collateral or repay part of your loan to avoid liquidation. Lenders typically give you several hours to add more collateral. This is a key benefit over using DeFi loans like Spark or Aave, since these protocols automatiicaly liquidate your collateral without warning if the market suddenly dips.</p>
             </div>
             <div className="bg-white p-6 rounded-lg shadow-md">
               <h3 className="text-xl font-semibold mb-3">How Fast Can I Get My Loan?</h3>
-              <p>Most loans are approved and funded within minutes, depending on blockchain confirmation times.</p>
+              <p>Most loans are typically approved and funded within a week, depending on loan size.</p>
             </div>
             <div className="bg-white p-6 rounded-lg shadow-md">
               <h3 className="text-xl font-semibold mb-3">How Do I Repay My Loan?</h3>
-              <p>You can repay your loan anytime via crypto, fiat bank transfer, or card payments.</p>
+              <p>Interest is typically charged monthly, but can also be added to the loan and all paid at the end of the loan term.</p>
             </div>
             <div className="bg-white p-6 rounded-lg shadow-md">
               <h3 className="text-xl font-semibold mb-3">What Happens When I Repay My Loan?</h3>
-              <p>Once repaid, your collateral is instantly returned to your wallet, ready for your next move.</p>
+              <p>Once repaid, your collateral is returned to your wallet, ready for your next move.</p>
+            </div>
+            <div className="bg-white p-6 rounded-lg shadow-md">
+              <h3 className="text-xl font-semibold mb-3">How Many Lenders are in the Market?</h3>
+              <p>The number ebbs and flows but there are typically decent 10-20 lenders in the market.</p>
+            </div>
+            <div className="bg-white p-6 rounded-lg shadow-md">
+              <h3 className="text-xl font-semibold mb-3">Does your Service Cost Me Anything?</h3>
+              <p>We are remunerated by the lenders, not the borrowers. This means that it costs you nothing to use our service and you ensure you get the best deal.</p>
             </div>
           </div>
         </section>

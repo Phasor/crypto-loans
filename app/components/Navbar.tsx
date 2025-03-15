@@ -25,7 +25,7 @@ export default function Navbar() {
                 href="/apply" 
                 className="bg-blue-600 text-white px-4 py-2 rounded-md hover:bg-blue-700"
               >
-                Get Started
+                Get A Crypto Loan
               </Link>
             </div>
           </div>
