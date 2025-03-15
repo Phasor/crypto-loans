@@ -5,6 +5,26 @@ import Navbar from '../components/Navbar';
 import { AuroraBackground } from '../components/ui/aurora-background';
 import emailjs from '@emailjs/browser';
 
+// Validate required environment variables
+if (!process.env.NEXT_PUBLIC_EMAILJS_PUBLIC_KEY) {
+  throw new Error('Missing NEXT_PUBLIC_EMAILJS_PUBLIC_KEY environment variable');
+}
+if (!process.env.NEXT_PUBLIC_EMAILJS_SERVICE_ID) {
+  throw new Error('Missing NEXT_PUBLIC_EMAILJS_SERVICE_ID environment variable');
+}
+if (!process.env.NEXT_PUBLIC_EMAILJS_TEMPLATE_ID) {
+  throw new Error('Missing NEXT_PUBLIC_EMAILJS_TEMPLATE_ID environment variable');
+}
+if (!process.env.NEXT_PUBLIC_CONTACT_EMAIL) {
+  throw new Error('Missing NEXT_PUBLIC_CONTACT_EMAIL environment variable');
+}
+
+// Since we've validated the environment variables, we can safely assert their types
+const EMAILJS_PUBLIC_KEY = process.env.NEXT_PUBLIC_EMAILJS_PUBLIC_KEY as string;
+const EMAILJS_SERVICE_ID = process.env.NEXT_PUBLIC_EMAILJS_SERVICE_ID as string;
+const EMAILJS_TEMPLATE_ID = process.env.NEXT_PUBLIC_EMAILJS_TEMPLATE_ID as string;
+const CONTACT_EMAIL = process.env.NEXT_PUBLIC_CONTACT_EMAIL as string;
+
 export default function ApplicationPage() {
   const [formData, setFormData] = useState({
     name: '',
@@ -26,14 +46,13 @@ export default function ApplicationPage() {
     setSubmitStatus({ type: null, message: '' });
 
     try {
-      // Initialize EmailJS with your public key
-      emailjs.init("15THPP0xkIn8R8jIG"); // You'll need to replace this with your actual public key
+      emailjs.init(EMAILJS_PUBLIC_KEY);
 
       await emailjs.send(
-        "service_p3rowvv", // Replace with your EmailJS service ID
-        "template_q4k3psm", // Replace with your EmailJS template ID
+        EMAILJS_SERVICE_ID,
+        EMAILJS_TEMPLATE_ID,
         {
-          to_email: "phas0ruk@gmail.com",
+          to_email: CONTACT_EMAIL,
           from_name: formData.name,
           from_email: formData.email,
           country: formData.country,
