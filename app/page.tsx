@@ -10,34 +10,34 @@ export default function Home() {
       <main className="max-w-4xl mx-auto px-4 pt-24 pb-16">
         <section className="text-center mb-16">
           <h1 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6">
-            Unlock Liquidity Without Selling Your Crypto
+            Crypto Loan: Unlock Liquidity Without Selling Your Crypto
           </h1>
           <h2 className="text-2xl md:text-3xl text-gray-700 mb-8">
-            Get an Instant Cryptocurrency Loan
+            Get an Quick Cryptocurrency Loan
           </h2>
           <p className="text-lg text-gray-600 mb-8">
-            Leverage your Bitcoin, Ethereum, or other crypto assets to access instant cash while keeping your investment. No credit checks, fast approvals, and flexible repayment options.
+            Use your Bitcoin, Ethereum, or other crypto assets to access cash without having to sell your stack. No credit checks, fast approvals, and flexible repayment options.
           </p>
         </section>
 
         <section className="mb-16">
-          <h2 className="text-3xl font-bold text-gray-900 mb-8">Why Choose Our Crypto-Backed Loans?</h2>
+          <h2 className="text-3xl font-bold text-gray-900 mb-8">Crypto Loan Features</h2>
           <div className="grid md:grid-cols-2 gap-6">
             <div className="bg-white p-6 rounded-lg shadow-md">
               <h3 className="text-xl font-semibold mb-3">High Loan-to-Value (LTV) Ratio</h3>
               <p>Get up to 97% of your crypto's value as a loan.</p>
             </div>
             <div className="bg-white p-6 rounded-lg shadow-md">
-              <h3 className="text-xl font-semibold mb-3">Instant Loan Approval</h3>
-              <p>No waiting, no paperwork, no credit checks.</p>
+              <h3 className="text-xl font-semibold mb-3">No Autoliquidation</h3>
+              <p>Unlike DeFi protocols like Aave, we don't liquidate your collateral without you having time to add more collateral.</p>
             </div>
             <div className="bg-white p-6 rounded-lg shadow-md">
               <h3 className="text-xl font-semibold mb-3">Multiple Withdrawal Options</h3>
               <p>Receive funds in your preferred currency via bank transfer, stablecoins, or crypto wallets.</p>
             </div>
             <div className="bg-white p-6 rounded-lg shadow-md">
-              <h3 className="text-xl font-semibold mb-3">Flexible Repayment Terms</h3>
-              <p>Repay on your schedule and retrieve your collateral anytime.</p>
+              <h3 className="text-xl font-semibold mb-3">Flixed Interest Rates</h3>
+              <p>Benefit from a fixed loan cost, unlike in DeFi protocols like Aave.</p>
             </div>
           </div>
         </section>
@@ -48,39 +48,39 @@ export default function Home() {
             <div className="flex items-start">
               <div className="bg-blue-600 text-white rounded-full w-8 h-8 flex items-center justify-center flex-shrink-0 mt-1">1</div>
               <div className="ml-4">
-                <h3 className="text-xl font-semibold mb-2">Deposit Your Crypto</h3>
-                <p>Transfer your chosen cryptocurrency as collateral from our list of 50+ supported assets.</p>
+                <h3 className="text-xl font-semibold mb-2">Compare Cryptocurrency Loan Providers</h3>
+                <p>We compare the best crypto loan providers to find you the best deal.</p>
               </div>
             </div>
             <div className="flex items-start">
               <div className="bg-blue-600 text-white rounded-full w-8 h-8 flex items-center justify-center flex-shrink-0 mt-1">2</div>
               <div className="ml-4">
-                <h3 className="text-xl font-semibold mb-2">Customize Your Loan Terms</h3>
-                <p>Use our simple loan calculator to choose your loan amount, currency, and repayment period.</p>
+                <h3 className="text-xl font-semibold mb-2">Customize Your Crypto Loan Terms</h3>
+                <p>Talk with out specialists to customize your loan terms with the best provider.</p>
               </div>
             </div>
             <div className="flex items-start">
               <div className="bg-blue-600 text-white rounded-full w-8 h-8 flex items-center justify-center flex-shrink-0 mt-1">3</div>
               <div className="ml-4">
-                <h3 className="text-xl font-semibold mb-2">Get Instant Approval</h3>
-                <p>Receive funds instantly after confirming your loan terms. No hidden fees or unnecessary delays.</p>
+                <h3 className="text-xl font-semibold mb-2">Get Fast Approval</h3>
+                <p>Receive funds quickly after conducting KYC and AML.</p>
               </div>
             </div>
             <div className="flex items-start">
               <div className="bg-blue-600 text-white rounded-full w-8 h-8 flex items-center justify-center flex-shrink-0 mt-1">4</div>
               <div className="ml-4">
-                <h3 className="text-xl font-semibold mb-2">Manage & Repay Anytime</h3>
-                <p>Easily track your loan, adjust your LTV, or repay early via crypto, bank transfers, or card payments.</p>
+                <h3 className="text-xl font-semibold mb-2">Manage & Repay Flexibly</h3>
+                <p>Repay your loan or roll it over to a new loan.</p>
               </div>
             </div>
           </div>
         </section>
 
         <section className="mb-16">
-          <h2 className="text-3xl font-bold text-gray-900 mb-8">What Can You Do with a Crypto Loan?</h2>
+          <h2 className="text-3xl font-bold text-gray-900 mb-8">Crypto Loan Use Cases</h2>
           <div className="grid md:grid-cols-2 gap-6">
             <div className="bg-white p-6 rounded-lg shadow-md">
-              <h3 className="text-xl font-semibold mb-3">Buy More Crypto</h3>
+              <h3 className="text-xl font-semibold mb-3">Stack More Crypto!</h3>
               <p>Increase your portfolio without selling your holdings.</p>
             </div>
             <div className="bg-white p-6 rounded-lg shadow-md">
@@ -93,18 +93,18 @@ export default function Home() {
             </div>
             <div className="bg-white p-6 rounded-lg shadow-md">
               <h3 className="text-xl font-semibold mb-3">Invest in Your Business</h3>
-              <p>Expand operations or cover business expenses with instant liquidity.</p>
+              <p>Expand operations or cover business expenses with fast liquidity.</p>
             </div>
           </div>
         </section>
 
         <section className="mb-16">
-          <h2 className="text-3xl font-bold text-gray-900 mb-8">Transparent Loan Terms</h2>
+          <h2 className="text-3xl font-bold text-gray-900 mb-8">Example Loan Terms</h2>
           <div className="bg-white p-8 rounded-lg shadow-md space-y-4">
             <div className="grid md:grid-cols-2 gap-4">
               <div>
                 <h3 className="font-semibold">Loan Amount:</h3>
-                <p>From $100 to $1,000,000+</p>
+                <p>From $10,000 to $1,000,000+</p>
               </div>
               <div>
                 <h3 className="font-semibold">Supported Cryptos:</h3>
@@ -112,7 +112,7 @@ export default function Home() {
               </div>
               <div>
                 <h3 className="font-semibold">Annual Percentage Rate (APR):</h3>
-                <p>Starting at 2.25% per month</p>
+                <p>Starting at 0.8% per month</p>
               </div>
               <div>
                 <h3 className="font-semibold">Loan Duration:</h3>
