@@ -30,7 +30,7 @@ export default function Home() {
             </div>
             <div className="bg-white p-6 rounded-lg shadow-md">
               <h3 className="text-xl font-semibold mb-3">No Autoliquidation</h3>
-              <p>Unlike DeFi protocols like Aave, we don't liquidate your collateral without you having time to add more collateral.</p>
+              <p>Unlike DeFi protocols like Aave, we don&apos;t liquidate your collateral without you having time to add more collateral.</p>
             </div>
             <div className="bg-white p-6 rounded-lg shadow-md">
               <h3 className="text-xl font-semibold mb-3">Multiple Withdrawal Options</h3>
@@ -57,7 +57,7 @@ export default function Home() {
               <div className="bg-blue-600 text-white rounded-full w-8 h-8 flex items-center justify-center flex-shrink-0 mt-1">2</div>
               <div className="ml-4">
                 <h3 className="text-xl font-semibold mb-2">Customize Your Crypto Loan Terms</h3>
-                <p>Talk with out specialists to customize your loan terms with the best provider.</p>
+                <p>Talk with our specialists to customize your loan terms with the best provider.</p>
               </div>
             </div>
             <div className="flex items-start">
@@ -134,7 +134,7 @@ export default function Home() {
           <div className="space-y-6">
             <div className="bg-white p-6 rounded-lg shadow-md">
               <h3 className="text-xl font-semibold mb-3">What Happens if My Collateral Value Drops?</h3>
-              <p>If the value of your crypto falls below a set LTV ratio, we'll notify you in advance to deposit additional collateral or repay part of your loan to avoid liquidation. Lenders typically give you several hours to add more collateral. This is a key benefit over using DeFi loans like Spark or Aave, since these protocols automatiicaly liquidate your collateral without warning if the market suddenly dips.</p>
+              <p>If the value of your crypto falls below a set LTV ratio, we&apos;ll notify you in advance to deposit additional collateral or repay part of your loan to avoid liquidation. Lenders typically give you several hours to add more collateral. This is a key benefit over using DeFi loans like Spark or Aave, since these protocols automatically liquidate your collateral without warning if the market suddenly dips.</p>
             </div>
             <div className="bg-white p-6 rounded-lg shadow-md">
               <h3 className="text-xl font-semibold mb-3">How Fast Can I Get My Loan?</h3>
@@ -161,7 +161,7 @@ export default function Home() {
 
         <section id="get-started" className="text-center">
           <h2 className="text-3xl font-bold text-gray-900 mb-4">Start Your Crypto Loan Today!</h2>
-          <p className="text-lg text-gray-600 mb-8">Don't sell your crypto—leverage it. Get instant liquidity, maintain your holdings, and seize financial opportunities.</p>
+          <p className="text-lg text-gray-600 mb-8">Don&apos;t sell your crypto—leverage it. Get instant liquidity, maintain your holdings, and seize financial opportunities.</p>
           <Link href="/apply" className="inline-block bg-blue-600 text-white px-8 py-4 rounded-md text-lg font-semibold hover:bg-blue-700 transition-colors">
             Get a Crypto Loan Now
           </Link>
