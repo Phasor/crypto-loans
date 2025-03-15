@@ -26,7 +26,7 @@ export default function Home() {
           <div className="grid md:grid-cols-2 gap-6">
             <div className="bg-white p-6 rounded-lg shadow-md">
               <h3 className="text-xl font-semibold mb-3">High Loan-to-Value (LTV) Ratio</h3>
-              <p>Get up to 97% of your crypto's value as a loan.</p>
+              <p>Get up to 97% of your crypto&apos;s value as a loan.</p>
             </div>
             <div className="bg-white p-6 rounded-lg shadow-md">
               <h3 className="text-xl font-semibold mb-3">No Autoliquidation</h3>
@@ -90,7 +90,7 @@ export default function Home() {
             </div>
             <div className="bg-white p-6 rounded-lg shadow-md">
               <h3 className="text-xl font-semibold mb-3">Fund Big Purchases</h3>
-              <p>Use your crypto's value for a home, car, or travel expenses.</p>
+              <p>Use your crypto&apos;s value for a home, car, or travel expenses.</p>
             </div>
             <div className="bg-white p-6 rounded-lg shadow-md">
               <h3 className="text-xl font-semibold mb-3">Invest in Your Business</h3>
