@@ -1,5 +1,6 @@
 import Navbar from './components/Navbar';
 import EmailOptIn from './components/EmailOptIn';
+import Link from 'next/link';
 
 export default function Home() {
   return (
@@ -20,8 +21,8 @@ export default function Home() {
           </p>
         </section>
 
-        <section className="mb-16">
-          <h2 className="text-3xl font-bold text-gray-900 mb-8">Crypto Loan Features</h2>
+        <section id="benefits" className="mb-16 scroll-mt-24">
+          <h2 className="text-3xl font-bold text-gray-900 mb-8">Crypto Loan Benefits</h2>
           <div className="grid md:grid-cols-2 gap-6">
             <div className="bg-white p-6 rounded-lg shadow-md">
               <h3 className="text-xl font-semibold mb-3">High Loan-to-Value (LTV) Ratio</h3>
@@ -98,6 +99,12 @@ export default function Home() {
           </div>
         </section>
 
+        <div className="text-center mb-16">
+          <Link href="/apply" className="inline-block bg-blue-600 text-white px-8 py-4 rounded-md text-lg font-semibold hover:bg-blue-700 transition-colors">
+            Get a Crypto Loan Now
+          </Link>
+        </div>
+
         <section className="mb-16">
           <h2 className="text-3xl font-bold text-gray-900 mb-8">Example Loan Terms</h2>
           <div className="bg-white p-8 rounded-lg shadow-md space-y-4">
@@ -122,7 +129,7 @@ export default function Home() {
           </div>
         </section>
 
-        <section id="faqs" className="mb-16">
+        <section id="faqs" className="mb-16 scroll-mt-24">
           <h2 className="text-3xl font-bold text-gray-900 mb-8">FAQs</h2>
           <div className="space-y-6">
             <div className="bg-white p-6 rounded-lg shadow-md">
@@ -147,9 +154,9 @@ export default function Home() {
         <section id="get-started" className="text-center">
           <h2 className="text-3xl font-bold text-gray-900 mb-4">Start Your Crypto Loan Today!</h2>
           <p className="text-lg text-gray-600 mb-8">Don't sell your crypto—leverage it. Get instant liquidity, maintain your holdings, and seize financial opportunities.</p>
-          <button className="bg-blue-600 text-white px-8 py-4 rounded-md text-lg font-semibold hover:bg-blue-700 transition-colors">
-            Get a Loan Now
-          </button>
+          <Link href="/apply" className="inline-block bg-blue-600 text-white px-8 py-4 rounded-md text-lg font-semibold hover:bg-blue-700 transition-colors">
+            Get a Crypto Loan Now
+          </Link>
         </section>
       </main>
     </div>
