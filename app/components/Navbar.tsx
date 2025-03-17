@@ -18,6 +18,9 @@ export default function Navbar() {
               <Link href="/#benefits" className="text-gray-700 dark:text-gray-200 hover:text-blue-600 dark:hover:text-blue-400 px-3 py-2">
                 Benefits
               </Link>
+              <Link href="/guide" className="text-gray-700 dark:text-gray-200 hover:text-blue-600 dark:hover:text-blue-400 px-3 py-2">
+                Crypto Loan Guide
+              </Link>
               <Link href="/#faqs" className="text-gray-700 dark:text-gray-200 hover:text-blue-600 dark:hover:text-blue-400 px-3 py-2">
                 FAQs
               </Link>
