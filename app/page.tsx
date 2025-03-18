@@ -59,7 +59,7 @@ export default function Home() {
             </div>
           </section>
 
-          <section id="how-it-works" className="mb-16">
+          <section id="how-it-works" className="mb-16 scroll-mt-24">
             <h2 className="text-3xl font-bold text-gray-900 mb-8">How It Works</h2>
             <div className="space-y-8">
               <div className="flex items-start">

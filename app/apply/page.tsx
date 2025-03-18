@@ -107,17 +107,17 @@ Additional Information: ${formData.additionalInfo || 'None provided'}`
   return (
     <AuroraBackground>
       <Navbar />
-      <main className="max-w-4xl mx-auto px-4 pt-32 pb-16 min-h-screen">
-        <div className="text-center mb-12 scroll-mt-20">
+      <main className="max-w-4xl mx-auto px-4 pt-32 pb-48 min-h-screen">
+        <div className="text-center scroll-mt-20">
           <h1 className="text-4xl md:text-5xl font-bold text-gray-900 dark:text-white mb-6">
-            Apply for Your Crypto Loan
+            Enquire About a Crypto Loan
           </h1>
           <p className="text-lg text-gray-600 dark:text-gray-300 mb-8">
             Fill in your details below and one of our crypto loan experts will contact you to discuss your loan requirements and guide you through the process.
           </p>
         </div>
 
-        <div className="bg-white/10 backdrop-blur-sm p-8 rounded-xl shadow-lg max-w-2xl mx-auto">
+        <div className="bg-white/10 backdrop-blur-sm p-8 pb-12 rounded-xl shadow-lg max-w-2xl mx-auto">
           {submitStatus.type && (
             <div className={`mb-6 p-4 rounded-lg ${
               submitStatus.type === 'success' 
@@ -128,7 +128,7 @@ Additional Information: ${formData.additionalInfo || 'None provided'}`
             </div>
           )}
 
-          <form onSubmit={handleSubmit} className="space-y-6">
+          <form onSubmit={handleSubmit} className="space-y-6 mb-8">
             <div>
               <label htmlFor="name" className="block text-sm font-medium text-gray-700 dark:text-gray-200 mb-2">
                 Full Name *
@@ -242,7 +242,7 @@ Additional Information: ${formData.additionalInfo || 'None provided'}`
 
             <button
               type="submit"
-              className="w-full bg-blue-600 text-white px-8 py-4 rounded-lg text-lg font-semibold hover:bg-blue-700 transition-colors"
+              className="w-full bg-blue-600 text-white px-8 py-4 rounded-lg text-lg font-semibold hover:bg-blue-700 transition-colors mt-8"
             >
               Contact Me
             </button>
