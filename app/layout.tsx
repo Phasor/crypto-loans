@@ -18,13 +18,12 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" suppressHydrationWarning>
-      <body className={inter.className} suppressHydrationWarning>
+      <body className={`min-h-screen bg-white dark:bg-gray-900 ${inter.className}`} suppressHydrationWarning>
         <ThemeProvider
           attribute="class"
-          defaultTheme="light"
+          defaultTheme="system"
           enableSystem={false}
           disableTransitionOnChange
-          suppressHydrationWarning
         >
           {children}
         </ThemeProvider>

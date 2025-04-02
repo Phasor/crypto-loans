@@ -32,7 +32,8 @@ export function Navbar() {
               FAQs
             </Link>
           </nav>
-          <div>
+          <div className="flex items-center gap-4">
+            <MobileMenu />
             <Link
               href="/apply"
               className="inline-flex items-center justify-center rounded-full bg-blue-600 px-5 py-2.5 text-sm font-medium text-white shadow-sm hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2 transition-colors"
