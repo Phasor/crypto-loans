@@ -37,7 +37,8 @@ export function Navbar() {
               href="/apply"
               className="inline-flex items-center justify-center rounded-full bg-blue-600 px-5 py-2.5 text-sm font-medium text-white shadow-sm hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2 transition-colors"
             >
-              Get A Crypto Loan
+              <span className="hidden md:inline">Get A Crypto Loan</span>
+              <span className="md:hidden">Apply</span>
               <ArrowRight className="ml-2 h-4 w-4" />
             </Link>
           </div>

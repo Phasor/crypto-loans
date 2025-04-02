@@ -106,13 +106,13 @@ Additional Information: ${formData.additionalInfo || 'None provided'}`
   };
 
   return (
-    <div className="relative min-h-screen flex flex-col">
+    <div className="min-h-screen flex flex-col">
       <Navbar />
-      <main className="flex-1 w-full pt-28 md:pt-32 pb-32">
+      <main className="flex-grow w-full py-32">
         <AuroraBackground>
-          <div className="container mx-auto px-4 sm:px-6 lg:px-8 py-12 md:py-16">
-            <div className="text-center mb-12">
-              <h1 className="text-4xl md:text-5xl font-bold text-gray-900 dark:text-white mb-8 mt-48">
+          <div className="container mx-auto px-4 sm:px-6 lg:px-8">
+            <div className="text-center">
+              <h1 className="text-4xl md:text-5xl font-bold text-gray-900 dark:text-white mb-8">
                 Enquire About a Crypto Loan
               </h1>
               <p className="text-lg text-gray-600 dark:text-gray-300 mb-12 max-w-3xl mx-auto">
@@ -120,7 +120,7 @@ Additional Information: ${formData.additionalInfo || 'None provided'}`
               </p>
             </div>
 
-            <div className="bg-white/10 backdrop-blur-sm p-8 pb-12 rounded-xl shadow-lg max-w-5xl mx-auto mb-48">
+            <div className="bg-white/10 backdrop-blur-sm p-8 pb-12 rounded-xl shadow-lg max-w-5xl mx-auto mb-16">
               {submitStatus.type && (
                 <div className={`mb-8 p-4 rounded-lg ${
                   submitStatus.type === 'success' 
@@ -254,9 +254,7 @@ Additional Information: ${formData.additionalInfo || 'None provided'}`
           </div>
         </AuroraBackground>
       </main>
-      <div className="mt-auto">
-        <Footer />
-      </div>
+      <Footer />
     </div>
   );
 } 

@@ -62,7 +62,7 @@ export default function MobileMenu() {
             className="block bg-blue-600 text-white px-4 py-2 rounded-md hover:bg-blue-700 transition-colors text-center"
             onClick={() => setIsOpen(false)}
           >
-            Get A Crypto Loan
+            Apply
           </Link>
         </div>
       </div>
