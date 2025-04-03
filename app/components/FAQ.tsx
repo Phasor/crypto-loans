@@ -11,6 +11,10 @@ interface FAQItem {
 
 const faqs: FAQItem[] = [
   {
+    question: "Are You A Lender?",
+    answer: "No, we are brokers who find you the best lender in the market for your situation."
+  },
+  {
     question: "What Happens if My Collateral Value Drops?",
     answer: "If the value of your crypto falls below a set LTV ratio, we'll notify you in advance to deposit additional collateral or repay part of your loan to avoid liquidation."
   },
