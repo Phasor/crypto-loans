@@ -2,6 +2,7 @@ import Link from "next/link"
 import { ArrowRight, CheckCircle, Shield, Wallet, BarChart3, DollarSign } from "lucide-react"
 import { Footer } from "./components/Footer"
 import { Navbar } from "./components/Navbar"
+import { FAQ } from "./components/FAQ"
 
 export default function Home() {
   return (
@@ -201,6 +202,9 @@ export default function Home() {
             </div>
           </div>
         </section>
+
+        {/* FAQ Section */}
+        <FAQ />
       </main>
       <Footer />
     </div>
