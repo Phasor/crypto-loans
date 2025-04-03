@@ -61,9 +61,12 @@ export function Footer() {
 
         <div className="border-t border-gray-800 mt-12 pt-8 text-center text-gray-400 text-sm">
           <p suppressHydrationWarning>© {new Date().getFullYear()} Crypto Loan Brokers. All rights reserved.</p>
-          <div className="mt-2">
+          <div className="mt-2 space-x-4">
             <Link href="/privacy" className="hover:text-white transition-colors">
               Privacy Policy
+            </Link>
+            <Link href="/sitemap.xml" className="hover:text-white transition-colors">
+              Sitemap
             </Link>
           </div>
         </div>
