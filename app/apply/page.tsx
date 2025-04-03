@@ -3,7 +3,6 @@
 import { useState } from 'react';
 import { Navbar } from "../components/Navbar"
 import { Footer } from "../components/Footer"
-import { AuroraBackground } from '../components/ui/aurora-background';
 import emailjs from '@emailjs/browser';
 
 // Validate required environment variables

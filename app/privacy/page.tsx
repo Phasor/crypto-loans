@@ -63,7 +63,7 @@ export default function PrivacyPolicy() {
               <ul className="list-disc pl-6 text-gray-600 mb-8">
                 <li className="mb-2">The right to access your personal data</li>
                 <li className="mb-2">The right to rectify inaccurate data</li>
-                <li className="mb-2">The right to erase your data ("right to be forgotten")</li>
+                <li className="mb-2">The right to erase your data (&quot;right to be forgotten&quot;)</li>
                 <li className="mb-2">The right to restrict or object to processing</li>
                 <li className="mb-2">The right to data portability</li>
                 <li className="mb-2">The right to withdraw consent at any time</li>
@@ -87,7 +87,7 @@ export default function PrivacyPolicy() {
                 Our site may contain links to third-party websites. We are not responsible for the privacy practices of those sites.
               </p>
 
-              <h2 className="text-2xl font-bold text-gray-900 mt-12 mb-4">11. Children's Privacy</h2>
+              <h2 className="text-2xl font-bold text-gray-900 mt-12 mb-4">11. Children&apos;s Privacy</h2>
               <p className="text-gray-600 mb-8">
                 Our website and services are not intended for individuals under the age of 18. We do not knowingly collect data from children.
               </p>
