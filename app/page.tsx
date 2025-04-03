@@ -21,7 +21,7 @@ export default function Home() {
               <span className="block mt-2">Without Selling Your Crypto</span>
             </h1>
             <p className="mt-6 text-xl md:text-2xl font-medium text-gray-600 max-w-2xl mx-auto">
-              Get an Quick Cryptocurrency Loan
+              Get a Quick Cryptocurrency Loan
             </p>
             <p className="mt-4 text-lg text-gray-600 max-w-3xl mx-auto">
               Use your Bitcoin, Ethereum, or other crypto assets to access cash without having to sell your stack. No
@@ -92,7 +92,7 @@ export default function Home() {
                 </div>
                 <h3 className="text-xl font-bold text-gray-900 mb-3">No Autoliquidation</h3>
                 <p className="text-gray-600">
-                  Unlike DeFi protocols like Aave, we don&apos;t liquidate your collateral without you having time to add
+                  Unlike DeFi protocols like Aave, our lenders don&apos;t liquidate your collateral without you having time to add
                   more collateral.
                 </p>
               </div>
@@ -103,7 +103,7 @@ export default function Home() {
                 </div>
                 <h3 className="text-xl font-bold text-gray-900 mb-3">Multiple Withdrawal Options</h3>
                 <p className="text-gray-600">
-                  Receive funds in your preferred currency via bank transfer, stablecoins, or crypto wallets.
+                  Receive funds in your preferred currency via bank transfer, stablecoins, or other cryptos.
                 </p>
               </div>
 
@@ -113,7 +113,7 @@ export default function Home() {
                 </div>
                 <h3 className="text-xl font-bold text-gray-900 mb-3">Fixed Interest Rates</h3>
                 <p className="text-gray-600">
-                  Benefit from a fixed loan cost, unlike in DeFi protocols like Aave where rates can fluctuate.
+                  Benefit from a fixed loan cost, unlike in DeFi protocols like Aave where rates can fluctuate wildy.
                 </p>
               </div>
             </div>
@@ -164,7 +164,7 @@ export default function Home() {
                 <div className="bg-white rounded-2xl p-8 shadow-lg border border-gray-100 h-full">
                   <h3 className="text-xl font-bold text-gray-900 mb-4 pt-6">Get Your Funds Quickly</h3>
                   <p className="text-gray-600">
-                    After approval, receive your funds in your preferred currency or wallet, often within 24 hours.
+                    After approval, receive your funds in your preferred currency.
                   </p>
                 </div>
               </div>

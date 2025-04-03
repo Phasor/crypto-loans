@@ -16,15 +16,15 @@ const faqs: FAQItem[] = [
   },
   {
     question: "What Happens if My Collateral Value Drops?",
-    answer: "If the value of your crypto falls below a set LTV ratio, we'll notify you in advance to deposit additional collateral or repay part of your loan to avoid liquidation."
+    answer: "If the value of your crypto falls below a set LTV (loan to value) ratio, your lender will notify you to deposit additional collateral or repay part of your loan to avoid liquidation."
   },
   {
     question: "How Fast Can I Get My Loan?",
-    answer: "Most loans are approved and funded within minutes, depending on blockchain confirmation times."
+    answer: "Most loans are approved and funded within a week."
   },
   {
     question: "How Do I Repay My Loan?",
-    answer: "You can repay your loan anytime via crypto, fiat bank transfer, or card payments."
+    answer: "You can repay your loan at the end of the agreed term in the agreed currency. Sometimes they can be repaid early or rolled over to another term to extend the loan."
   },
   {
     question: "What Happens When I Repay My Loan?",
